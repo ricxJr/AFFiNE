@@ -12,6 +12,7 @@ on:
       - README.md
   pull_request:
   merge_group:
+  workflow_dispatch:
 
 env:
   DEBUG: napi:*
